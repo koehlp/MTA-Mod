@@ -11,10 +11,10 @@ This repository contains two Grand Theft Auto V Mods used for creating the [MTA 
 - Download and install a legal copy of Grand Theft Auto V
 - Download ScriptHook V AND the SDK [here](http://www.dev-c.com/gtav/scripthookv/). 
     - Follow the instructions reported on the web page. Also, follow the instructions of the SDK readme under the section "Runtime asi script reloading"
-- Download the FunctionToolbox Mod: [`FunctionToolbox.asi`] https://drive.google.com/open?id=1m35nRR9P1I9ZI-NGqKFGid3vAYAGIkrk
-- Download the DatasetCreator Mod: [`DatasetCreator.asi`] https://drive.google.com/open?id=1CtbKw-hJip7hFLdMS9a3bvp_V3jMKafp
-- Download the MTMCT Config files : [`MTMCT.zip`] https://drive.google.com/open?id=1H5tQdVZJYgzhWJce7hNe2UjXEzagD3HY
-- Copy both files `FunctionToolbox.asi`, `DatasetCreator.asi` and the MTMCT folder in the Grand Theft Auto V game folder.
+- Download the FunctionToolbox Mod: [`FunctionToolbox.asi`] https://drive.google.com/open?id=1m35nRR9P1I9ZI-NGqKFGid3vAYAGIkrk&export=download
+- Download the DatasetCreator Mod: [`DatasetCreator.asi`] https://drive.google.com/open?id=1CtbKw-hJip7hFLdMS9a3bvp_V3jMKafp&export=download
+- Download the MTMCT Config files : [`MTMCT.zip`] https://drive.google.com/open?id=1H5tQdVZJYgzhWJce7hNe2UjXEzagD3HY&export=download
+- Copy both files `FunctionToolbox.asi`, `DatasetCreator.asi` and the MTMCT folder into the Grand Theft Auto V game folder.
 - If you installed GTA V using Rockstar's Social Club, you have to change the permissions of the game folder (read, write and execute). If you used Steam, everything should be fine.
 - Run Grand Theft Auto V and select Story Mode. If it is your first start of the game, you have to complete the first mission. Enjoy!
 - Activate in GTAV Settings -> Graphics -> Screen Type -> Windowed Borderless. Otherwise black images might be recorded.
