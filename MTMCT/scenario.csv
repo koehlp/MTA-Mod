@@ -1,0 +1,4 @@
+spawn_stream_id,max_spawned_world,spawn_at_ped_no_start,spawn_at_ped_no_end,group_count,group_size_start,group_size_end,ped_speed_start,ped_speed_end,track_no_start,track_no_end
+0              ,200              ,0                    ,0                  ,2          ,1               ,50            ,1              ,1            ,0             ,4500  
+1              ,200              ,150                  ,200                ,5          ,10              ,10            ,1              ,5            ,0             ,4500  
+2              ,150              ,0                    ,0                  ,4500       ,1               ,1             ,1              ,1.2          ,0             ,4500        

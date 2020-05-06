@@ -1,0 +1,6 @@
+screen_width:1920
+screen_height:1080
+wait_ms_after_set_camera:100
+time_scale:0.1f
+fps_per_cam:41
+is_debug:false
