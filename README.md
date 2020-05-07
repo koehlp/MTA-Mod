@@ -11,6 +11,7 @@ This repository contains two Grand Theft Auto V Mods used for creating the [MTA 
 - Download and install a legal copy of Grand Theft Auto V
 - Download ScriptHook V AND the SDK [here](http://www.dev-c.com/gtav/scripthookv/). 
     - Follow the instructions reported on the web page. Also, follow the instructions of the SDK readme under the section "Runtime asi script reloading"
+	- Basically create empty file called "ScriptHookV.dev" in the GTA V game folder C:\Program Files\Rockstar Games\Grand Theft Auto V for asi reloading
 - Download the FunctionToolbox Mod: [`FunctionToolbox.asi`] https://drive.google.com/uc?export=download&id=1m35nRR9P1I9ZI-NGqKFGid3vAYAGIkrk
 - Download the DatasetCreator Mod: [`DatasetCreator.asi`] https://drive.google.com/uc?export=download&id=1CtbKw-hJip7hFLdMS9a3bvp_V3jMKafp
 - Download the MTMCT Config files : [`MTMCT.zip`] https://drive.google.com/uc?export=download&id=1H5tQdVZJYgzhWJce7hNe2UjXEzagD3HY
@@ -31,6 +32,7 @@ This repository contains two Grand Theft Auto V Mods used for creating the [MTA 
 - Download and install a legal copy of Grand Theft Auto V
 - Clone this repository
 - Download ScriptHook V AND the SDK here http://www.dev-c.com/gtav/scripthookv/. Follow the instructions reported on the web page. Also, follow the instructions of the SDK readme under the section "Runtime asi script reloading"
+- Basically create empty file called "ScriptHookV.dev" in the GTA V game folder C:\Program Files\Rockstar Games\Grand Theft Auto V for asi reloading
 - Copy the ScriptHook V SDK folders inc and lib into the repository folder into MTA-Mod/deps/
 - Open the Solution with Visual Studio (we used VS2017, but previous versions should work too) and, for each sub-project, follow these instructions:
 	- include the header files to the project by going in Configuration Properties->C/C++->General and set the path to the "inc" directory of the SDK in "Additional Include Directories"
