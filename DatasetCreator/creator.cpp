@@ -3783,7 +3783,7 @@ void Creator::spawnSpecificThing() {
 	Ped myRandomPed = PED::CREATE_RANDOM_PED(pp.x,pp.y,pp.z);
 	AI::TASK_STAND_STILL(myRandomPed, 100);
 
-	
+	set_status_text("Pressed spawn specific thing.");
 
 	Entity myEntityToGoTo = OBJECT::CREATE_OBJECT(0xe12b7c7c, pp.x + 11.0f, pp.y, pp.z,
 		false, true, true);
@@ -3804,12 +3804,6 @@ void Creator::spawnSpecificThing() {
 	AI::CLEAR_SEQUENCE_TASK(&seq);
 
 
-	
-	
-
-	
-
-	
 
 	
 }

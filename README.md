@@ -11,13 +11,13 @@ This repository contains two Grand Theft Auto V Mods used for creating the [MTA 
 - Download and install a legal copy of Grand Theft Auto V
 - Download ScriptHook V AND the SDK [here](http://www.dev-c.com/gtav/scripthookv/). 
     - Follow the instructions reported on the web page. Also, follow the instructions of the SDK readme under the section "Runtime asi script reloading"
-- Download the FunctionToolbox Mod: [`FunctionToolbox.asi`] https://drive.google.com/open?id=1m35nRR9P1I9ZI-NGqKFGid3vAYAGIkrk&export=download
-- Download the DatasetCreator Mod: [`DatasetCreator.asi`] https://drive.google.com/open?id=1CtbKw-hJip7hFLdMS9a3bvp_V3jMKafp&export=download
-- Download the MTMCT Config files : [`MTMCT.zip`] https://drive.google.com/open?id=1H5tQdVZJYgzhWJce7hNe2UjXEzagD3HY&export=download
+- Download the FunctionToolbox Mod: [`FunctionToolbox.asi`] https://drive.google.com/uc?export=download&id=1m35nRR9P1I9ZI-NGqKFGid3vAYAGIkrk
+- Download the DatasetCreator Mod: [`DatasetCreator.asi`] https://drive.google.com/uc?export=download&id=1CtbKw-hJip7hFLdMS9a3bvp_V3jMKafp
+- Download the MTMCT Config files : [`MTMCT.zip`] https://drive.google.com/uc?export=download&id=1H5tQdVZJYgzhWJce7hNe2UjXEzagD3HY
 - Copy both files `FunctionToolbox.asi`, `DatasetCreator.asi` and the MTMCT folder into the Grand Theft Auto V game folder.
 - If you installed GTA V using Rockstar's Social Club, you have to change the permissions of the game folder (read, write and execute). If you used Steam, everything should be fine.
 - Run Grand Theft Auto V and select Story Mode. If it is your first start of the game, you have to complete the first mission. Enjoy!
-- Activate in GTAV Settings -> Graphics -> Screen Type -> Windowed Borderless. Otherwise black images might be recorded.
+- Activate in GTA V Windowed Borderless: Settings -> Graphics -> Screen Type -> Windowed Borderless. Otherwise black images might be recorded.
 - The mods will automatically start. Now, by pressing F5 you can use the FunctionToolbox mod. By pressing F6 the DatasetCreator mod menu will open. You can disable the Mods in any time by pressing ctrl+R.
 - Navigate via num pad arrows in the menus. You can start recording by choosing `Start combined recording` and pressing Num 5. Wait a few seconds.
 - Hold F10 to stop the recording. The recorded images and annotations will be in the GTA V game C:\Program Files\Rockstar Games\Grand Theft Auto V\MTMCT\cam_0 etc.
@@ -31,7 +31,7 @@ This repository contains two Grand Theft Auto V Mods used for creating the [MTA 
 - Download and install a legal copy of Grand Theft Auto V
 - Clone this repository
 - Download ScriptHook V AND the SDK here http://www.dev-c.com/gtav/scripthookv/. Follow the instructions reported on the web page. Also, follow the instructions of the SDK readme under the section "Runtime asi script reloading"
-- Copy ScriptHook V SDK files into the repo MTA-Mod/deps/
+- Copy the ScriptHook V SDK folders inc and lib into the repository folder into MTA-Mod/deps/
 - Open the Solution with Visual Studio (we used VS2017, but previous versions should work too) and, for each sub-project, follow these instructions:
 	- include the header files to the project by going in Configuration Properties->C/C++->General and set the path to the "inc" directory of the SDK in "Additional Include Directories"
 	- include the library to the projects by going to Configuration Properties->Linker->General  and set the path that points to the "lib" folder of the SDK in "Additional Library Directories" 
@@ -56,18 +56,12 @@ This repository contains two Grand Theft Auto V Mods used for creating the [MTA 
 ## DatasetCreator usage
 
 - Start this mod by pressing F6
+- Start the recording by choosing `Start combined recording`.
+- Stop the recording by holding F10.
 
 
 ## Citation
 
 We believe in open research and we are happy if you find this code useful.   
-If you use it, please cite our [work](https://arxiv.org/abs/1803.08319).
+If you use it, please cite our 
 
-```latex
-@inproceedings{fabbri2018learning,
-   title     = {Learning to Detect and Track Visible and Occluded Body Joints in a Virtual World},
-   author    = {Fabbri, Matteo and Lanzi, Fabio and Calderara, Simone and Palazzi, Andrea and Vezzani, Roberto and Cucchiara, Rita},
-   booktitle = {European Conference on Computer Vision (ECCV)},
-   year      = {2018}
- }
-```
