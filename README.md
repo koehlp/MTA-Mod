@@ -3,7 +3,7 @@
 Parts of the readme and code are from https://github.com/fabbrimatteo/JTA-Mods/
 
 # MTA-Mod (beta)
-This repository contains two Grand Theft Auto V Mods used for creating the [MTA Dataset] presented in the paper LINK
+This repository contains two Grand Theft Auto V Mods used for creating the MTA Dataset (https://github.com/schuar-iosb/mta-dataset) presented in the paper LINK
 - FunctionToolbox: Contains functions which help to set the camera views e.g. or to explore GTA V.
 - DatasetCreator: To create a multi target multi camera tracking dataset. 
 
