@@ -69,7 +69,7 @@ if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Videos to images')
     parser.add_argument('--file', type=str, help='Input log file to upload.',required=True)
     parser.add_argument('--key', type=str, help='Key to access the log file online.',required=True)
-    parser.add_argument('--url', type=str, help='URL to which the log file should be uploaded.', default="http://srv0.theotown.com/progress_logs/write_progress.php")
+    parser.add_argument('--url', type=str, help='URL to which the log file should be uploaded.', default="http://example.com/progress_logs/write_progress.php")
 
     args = parser.parse_args()
     print(args)
