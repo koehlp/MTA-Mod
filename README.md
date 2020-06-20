@@ -67,7 +67,7 @@ This repository contains two Grand Theft Auto V Mods which were used for creatin
 We believe in open research and we are happy if you find this code useful.   
 If you use it, please cite our work.
 
-The affiliated paper will be published soon at the CVPR 2020 VUHCS Workshop (https://vuhcs.github.io/)
+The affiliated paper was published at the CVPR 2020 VUHCS Workshop (https://vuhcs.github.io/)
 
 ```latex
 @InProceedings{Kohl_2020_CVPR_Workshops,
